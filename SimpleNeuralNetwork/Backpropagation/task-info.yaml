@@ -16,3 +16,6 @@ files:
   - name: tests/__init__.py
     visible: false
     propagatable: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false
