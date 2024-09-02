@@ -1,0 +1,8 @@
+content:
+  - Intro
+  - FullGD
+  - StochasticGD
+  - Momentum
+  - Adagrad
+  - Regularization
+  - LinearRegression

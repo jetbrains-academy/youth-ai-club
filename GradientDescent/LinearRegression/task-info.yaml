@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 888
+        length: 81
+        placeholder_text: "# TODO: calculate loss and save it to loss_history"
+      - offset: 1215
+        length: 275
+        placeholder_text: "# TODO: fit weights to X and y"
+      - offset: 1712
+        length: 32
+        placeholder_text: "# TODO: calculate prediction for X"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false
