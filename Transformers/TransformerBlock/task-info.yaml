@@ -1,0 +1,36 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 833
+        length: 16
+        placeholder_text: '# TODO'
+      - offset: 868
+        length: 37
+        placeholder_text: '# TODO'
+      - offset: 926
+        length: 18
+        placeholder_text: '# TODO'
+      - offset: 964
+        length: 20
+        placeholder_text: '# TODO'
+      - offset: 1004
+        length: 20
+        placeholder_text: '# TODO'
+      - offset: 1064
+        length: 63
+        placeholder_text: '# TODO'
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: solution.py
+    visible: false
+  - name: skip-connection.png
+    visible: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false

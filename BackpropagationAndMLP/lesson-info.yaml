@@ -1,0 +1,13 @@
+content:
+  - Introduction to PyTorch
+  - Backpropagation
+  - Example
+  - LinearLayer
+  - BatchNorm
+  - StartingVariables
+  - CrossEntropy
+  - ShortBatchNorm
+  - ClassValue
+  - AutoBackpropagation
+  - BuildingMLP
+  - Comparison of Value with Pytorch

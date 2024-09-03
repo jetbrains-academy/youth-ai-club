@@ -8,3 +8,5 @@ solutions_hidden: true
 content:
   - GradientDescent
   - SimpleNeuralNetwork
+  - BackpropagationAndMLP
+  - Transformers

@@ -1,0 +1,17 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: solution.py
+    visible: false
+  - name: solution_clear_python.py
+    visible: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false
