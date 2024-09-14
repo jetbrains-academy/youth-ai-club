@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 580
+        length: 1051
+        placeholder_text: "# TODO: implement backpropagation algorithm by calculating\
+      \ derivatives of loss function by all the model parameters"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false

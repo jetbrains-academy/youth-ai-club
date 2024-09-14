@@ -1,9 +1,12 @@
 type: marketplace
-title: JetBrains Academy Python course template
+title: Youth AI Club
 language: English
-summary: Here you can put the course description. You can use HTML tags inside the
-  description.
+summary: Some assignments of a free online club for high-schoolers interested in AI
 programming_language: Python
 environment: unittest
+solutions_hidden: true
 content:
-  - course_section
+  - GradientDescent
+  - SimpleNeuralNetwork
+  - BackpropagationAndMLP
+  - Transformers

@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 688
+        length: 573
+        placeholder_text: '# implement the function'
+      - offset: 2566
+        length: 301
+        placeholder_text: '# implement the function'
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false

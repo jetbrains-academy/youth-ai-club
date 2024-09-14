@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 103
+        length: 27
+        placeholder_text: "# TODO: calculate sigmoid function of x"
+      - offset: 411
+        length: 225
+        placeholder_text: "# TODO: implement forward pass"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false

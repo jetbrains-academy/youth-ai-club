@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 949
+        length: 80
+        placeholder_text: "# TODO: implement updating weights and return the difference\
+      \ between previous and current weights"
+      - offset: 1302
+        length: 60
+        placeholder_text: "# TODO: implement calculating gradient function"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_public.py
+    visible: true
+    propagatable: false
