@@ -4,9 +4,9 @@ You are given 2 functions $clip(\exp(input), 0, 1)$ and $clip(input^2, 0, 1)$, w
 $$
 clip(x, min, max) =
 \begin{cases}
-min, x < min \\
-max, x > max \\
-x, otherwise
+min, if \ x < min; \\
+max, if \ x > max; \\
+x, otherwise;
 \end{cases}
 $$
 
