@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 114
+        length: 47
+        placeholder_text: "# TODO: construct torch input from 1 element"
+      - offset: 212
+        length: 52
+        placeholder_text: "# TODO: get output1 grad"
+      - offset: 270
+        length: 19
+        placeholder_text: "# TODO: clear grad"
+      - offset: 339
+        length: 52
+        placeholder_text: "# TODO: get output2 grad"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
