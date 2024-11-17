@@ -10,3 +10,4 @@ content:
   - SimpleNeuralNetwork
   - BackpropagationAndMLP
   - Transformers
+  - PyTorchIntroduction
