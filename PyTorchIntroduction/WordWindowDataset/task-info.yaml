@@ -1,0 +1,51 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 604
+        length: 31
+        placeholder_text: "# TODO"
+      - offset: 971
+        length: 75
+        placeholder_text: "# TODO"
+      - offset: 1256
+        length: 80
+        placeholder_text: "# TODO: extract words from sentence with `preprocess_sentence`\
+      \ and add them to `words_set`"
+      - offset: 1845
+        length: 18
+        placeholder_text: "# TODO: call __init__ from ancestor"
+      - offset: 2302
+        length: 38
+        placeholder_text: "# TODO: list of words extracted from sentence with `idx` index\
+      \ in corpus"
+      - offset: 2365
+        length: 50
+        placeholder_text: "# TODO: convert words to indices with `self.word_to_idx_`.\
+      \ If word not in dict - map it to 0 index (refers to UNKNOWN_TOKEN)"
+      - offset: 2433
+        length: 48
+        placeholder_text: "# TODO: list of labels (0/1), 1 - if word is in `self.locations_`,\
+      \ 0 - otherwise"
+      - offset: 3344
+        length: 31
+        placeholder_text: "# TODO: pad word_idx_list with `window` from both sides"
+      - offset: 3442
+        length: 54
+        placeholder_text: "# TODO: torch.LongTensor of lengths for each data item"
+      - offset: 3687
+        length: 97
+        placeholder_text: "# TODO"
+      - offset: 3973
+        length: 68
+        placeholder_text: "# TODO"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

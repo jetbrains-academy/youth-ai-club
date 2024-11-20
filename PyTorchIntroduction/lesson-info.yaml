@@ -2,3 +2,5 @@ content:
   - WorkingWithTensors
   - Autograd
   - NeuralNetwork
+  - WordWindowDataset
+  - WordWindowClassifier
