@@ -4,3 +4,4 @@ content:
   - NeuralNetwork
   - WordWindowDataset
   - WordWindowClassifier
+  - WordWindowTraining

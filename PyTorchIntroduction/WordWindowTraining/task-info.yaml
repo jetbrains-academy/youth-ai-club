@@ -1,0 +1,31 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 648
+        length: 21
+        placeholder_text: "# TODO zero grads of model"
+      - offset: 754
+        length: 38
+        placeholder_text: "# TODO: calculate loss between `predictions` and `labels` using\
+      \ `criterion`"
+      - offset: 801
+        length: 15
+        placeholder_text: "# TODO: calculate grads"
+      - offset: 825
+        length: 16
+        placeholder_text: "# TODO: make step of optimizer"
+      - offset: 1502
+        length: 38
+        placeholder_text: "# TODO: calculate loss between `predictions` and `labels` using\
+      \ `criterion`"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
