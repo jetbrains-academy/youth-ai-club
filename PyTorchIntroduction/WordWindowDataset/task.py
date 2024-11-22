@@ -88,7 +88,9 @@ def collate_fn_sentence(data: List[Tuple[List[str], List[bool]]]) -> Tuple[torch
     word_idx_padded_list, labels = [], []
     for word_idx_list, labels_ in data:
         window = [1] * WINDOW_SIZE # 1 - padding_token_idx
-        word_idx_padded_list.append(torch.LongTensor(window + word_idx_list + window))
+        word_idx_padded_list.append(torch.LongTensor(
+            window + word_idx_list + window
+        ))
         labels.append(torch.LongTensor(labels_))
 
     lengths = torch.LongTensor([len(labels_) for labels_ in labels])

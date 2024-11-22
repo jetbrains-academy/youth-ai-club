@@ -8,26 +8,26 @@ files:
         placeholder_text: "# TODO: call __init__ method of ancestor"
       - offset: 449
         length: 56
-        placeholder_text: "# TODO: use nn.Embedding"
+        placeholder_text: "None # TODO: use nn.Embedding"
       - offset: 791
         length: 111
-        placeholder_text: "# TODO"
+        placeholder_text: "None # TODO"
       - offset: 960
         length: 88
-        placeholder_text: "# TODO: for each window the layer should return the probability\
+        placeholder_text: "None # TODO: for each window the layer should return the probability\
       \ of been location"
       - offset: 1307
         length: 45
-        placeholder_text: "# TODO"
+        placeholder_text: "None # TODO"
       - offset: 1603
         length: 26
-        placeholder_text: "# TODO"
-      - offset: 1896
-        length: 36
-        placeholder_text: "# TODO"
+        placeholder_text: "None # TODO"
+      - offset: 1897
+        length: 35
+        placeholder_text: "None # TODO"
       - offset: 2056
         length: 26
-        placeholder_text: "# TODO"
+        placeholder_text: "None # TODO"
   - name: tests/test_task.py
     visible: false
     propagatable: false

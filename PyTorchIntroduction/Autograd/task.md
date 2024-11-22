@@ -1,4 +1,4 @@
-In this task you should learn how to use torch autograd tools.
+In this task, you should learn how to use torch autograd tools.
 
 You are given 2 functions $clip(\exp(input), 0, 1)$ and $clip(input^2, 0, 1)$, where
 $$

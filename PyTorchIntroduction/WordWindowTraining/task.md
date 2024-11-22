@@ -1,4 +1,4 @@
-In this task we will finally train our model!
+In this task, we will finally train our model!
 
 Here are some steps you should implement in typical torch pipelines:
 1) `torch.optim.Optimizer` - you can choose one of many optimizers torch library provides. In this task we chose `SGD`.
@@ -7,17 +7,18 @@ And our optimizer will optimize these weights during training. Every training st
    1) Clean gradients of all weights (like we did in Autograd task `t_input.grad = None`).
 `optimizer.zero_grad()` method runs over all weights and cleans their grads.
    2) Count loss between your prediction and ground truth label
-   3) Run `loss.backward()` to calculate grads (like we did in Autograd task)
+   3) Run `loss.backward()` to calculate grads (like we did in an Autograd task)
    4) Call `optimizer.step()` - it will run over all weights and optimize using calculated grads.
-For SGD it will do `tensor = tensor - lr * grad` (but the formula depends on the parameters, usually it more complicated).
-2) `torch.nn.BCELoss` - this class implements simple Binary Cross Entropy loss for classification task.
-you can find many other losses provided by torch.
+For SGD, it will do `tensor = tensor - lr * grad` (but the formula depends on the parameters, usually it is more complicated).
+2) `torch.nn.BCELoss` - this class implements simple Binary Cross Entropy loss for a classification task.
+You can find many other losses provided by `torch`.
 
 Every `validate_every_n_epochs` epochs we will validate our model on `test_loader`.
 For this, we will do the same steps while training but without calculating gradients and optimizing weights.
 That's why for speeding up the process we use decorator `@torch.no_grad()`.
 Operations with tensors automatically calculating graph to further calculate the grads.
-We don't need the grads $\Rightarrow$ we don't need the graph and this decorator turns off graph calculation inside function it decorates.
+We don't need the grads $\Rightarrow$ we don't need the graph, and this decorator turns off 
+graph calculation inside the function it decorates.
 You cal also use this trick like this:
 
 ```python
@@ -26,17 +27,20 @@ with torch.no_grad():
 ```
 
 Another moment we want to highlight is using different modes for our model: `train` an `eval`.
-We can switch between them by calling corresponding methods. In this task it is not essential but some layers behave different in `train` and `eval` mode and using this trick will improve metrics. 
+We can switch between them by calling corresponding methods. In this task it is not essential, 
+but some layers behave different in `train` and `eval` mode and using this trick will improve metrics. 
 
 `device` parameter can be used to train on GPU (doesn't need in this task).
 
-To test your solution we will build loaders and model using last 2 tasks.
-The common practice to check your model is to overfit on small amount of data and check tha metrics are as high as they can be in theory.
-So, we take small corpus of sentence from previous task, build `train_loader` and use the same `test_loader`.
+To test your solution, we will build loaders and model using last two tasks.
+The common practice to check your model is to overfit on small amount of data and check 
+the metrics are as high as they can be in theory.
+So, we take small corpus of sentence from a previous task, build `train_loader` and use the same `test_loader`.
 Your final validation accuracy should be `100%`.
-Such test doesn't guarantee that you model works good, but it shows that you highly possible don't have bugs in your pipeline.
+Such a test doesn't guarantee that your model works well, 
+but it shows that you highly possible don't have bugs in your pipeline.
 
-Here is our code or testing your solution, please, don't cheat :)
+Here is our code for testing your solution, please, don't cheat :)
 
 ```python
 from torch.utils.data import DataLoader

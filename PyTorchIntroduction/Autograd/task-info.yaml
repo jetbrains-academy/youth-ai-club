@@ -5,7 +5,7 @@ files:
     placeholders:
       - offset: 114
         length: 47
-        placeholder_text: "# TODO: construct torch input from 1 element"
+        placeholder_text: "None # TODO: construct torch input from 1 element"
       - offset: 212
         length: 52
         placeholder_text: "# TODO: get output1 grad"

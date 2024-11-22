@@ -14,7 +14,7 @@ def train_epoch(model: nn.Module, train_loader: DataLoader, optimizer: torch.opt
 
     losses = []
     for word_idx_padded, labels, lengths in train_loader:
-        # move tensors into device
+        # move tensors into a device
         word_idx_padded, labels, lengths = word_idx_padded.to(device), labels.to(device), lengths.to(device)
         """
         word_idx_padded: [B x L]

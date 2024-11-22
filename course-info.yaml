@@ -8,6 +8,6 @@ solutions_hidden: true
 content:
   - GradientDescent
   - SimpleNeuralNetwork
+  - PyTorchIntroduction
   - BackpropagationAndMLP
   - Transformers
-  - PyTorchIntroduction

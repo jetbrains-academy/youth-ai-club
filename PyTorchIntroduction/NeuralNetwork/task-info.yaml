@@ -11,7 +11,7 @@ files:
         placeholder_text: "# TODO: list sequential modules"
       - offset: 366
         length: 20
-        placeholder_text: "# TODO"
+        placeholder_text: "pass # TODO"
   - name: tests/test_task.py
     visible: false
     propagatable: false

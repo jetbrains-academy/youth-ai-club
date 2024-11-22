@@ -5,31 +5,31 @@ files:
     placeholders:
       - offset: 509
         length: 142
-        placeholder_text: '# implement an operation'
+        placeholder_text: "# implement an operation"
       - offset: 691
         length: 120
-        placeholder_text: '# implement an operation'
+        placeholder_text: "# implement an operation"
       - offset: 841
         length: 130
-        placeholder_text: '# implement an operation'
+        placeholder_text: "# implement an operation"
       - offset: 1000
         length: 81
-        placeholder_text: '# implement an operation'
+        placeholder_text: "# implement an operation"
       - offset: 1279
         length: 22
-        placeholder_text: '# implement a function'
+        placeholder_text: "# implement a function"
       - offset: 1345
         length: 25
-        placeholder_text: '# implement a function'
+        placeholder_text: "# implement a function"
       - offset: 1673
         length: 22
-        placeholder_text: '# implement a function'
+        placeholder_text: "# implement a function"
       - offset: 1736
         length: 19
-        placeholder_text: '# implement a function'
+        placeholder_text: "# implement a function"
       - offset: 1800
         length: 25
-        placeholder_text: '# implement a function'
+        placeholder_text: "# implement a function"
   - name: tests/test_task.py
     visible: false
   - name: __init__.py

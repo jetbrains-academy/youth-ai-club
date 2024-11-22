@@ -5,31 +5,31 @@ files:
     placeholders:
       - offset: 720
         length: 278
-        placeholder_text: '# Implement backpropagation for multiplication operation'
+        placeholder_text: "# Implement backpropagation for multiplication operation"
       - offset: 1058
         length: 233
-        placeholder_text: '# Implement backpropagation for exponentiation operation'
+        placeholder_text: "# Implement backpropagation for exponentiation operation"
       - offset: 1341
         length: 221
-        placeholder_text: '# Implement backpropagation for tangent operation'
+        placeholder_text: "# Implement backpropagation for tangent operation"
       - offset: 1611
         length: 167
-        placeholder_text: '# Implement backpropagation for exponent operation'
+        placeholder_text: "# Implement backpropagation for exponent operation"
       - offset: 1887
         length: 22
-        placeholder_text: '# Invent an operation for subtraction'
+        placeholder_text: "# Invent an operation for subtraction"
       - offset: 1953
         length: 25
-        placeholder_text: '# Invent an operation for division'
+        placeholder_text: "# Invent an operation for division"
       - offset: 2111
         length: 22
-        placeholder_text: '# Implement subtraction'
+        placeholder_text: "# Implement subtraction"
       - offset: 2174
         length: 19
-        placeholder_text: '# Implent similarly'
+        placeholder_text: "# Implent similarly"
       - offset: 2238
         length: 25
-        placeholder_text: '# Implement division'
+        placeholder_text: "# Implement division"
   - name: tests/test_task.py
     visible: false
   - name: __init__.py
