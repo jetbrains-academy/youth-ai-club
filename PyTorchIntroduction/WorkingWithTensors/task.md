@@ -1,0 +1,7 @@
+In this task, you have to implement short functions using pytorch. Implement all functions with only torch-vectorized operations without `for` cycles or `numpy`.
+
+1. [`count_means`](course://PyTorchIntroduction/WorkingWithTensors/task.py:6): given `torch.tensor x` count means for each row and for each column and return results as a tuple
+2. [`first_row_and_column`](course://PyTorchIntroduction/WorkingWithTensors/task.py:10): given `torch.tensor x` return first row and first column of x as a tuple
+3. [`create_chessboard`](course://PyTorchIntroduction/WorkingWithTensors/task.py:14): given `num_rows` - number of rows and `num_cols` - number of columns return a `torch.tensor` of size `[num_rows x num_cols]` filled with $0$ and $1$ in chessboard manner. Top-left element (intersection of first row and first column) should contain $0$.
+4. [`create_arithmetic_progressions`](course://PyTorchIntroduction/WorkingWithTensors/task.py:18): given `num_rows` - number of rows and `num_cols` - number of columns return a `torch.tensor` of size `[num_rows x num_cols]` where $i$-th row (starting $i$ from 1) contains arithmetic progression starting with $i$ with step $i$
+5. [`create_arithmetic_progressions`](course://PyTorchIntroduction/WorkingWithTensors/task.py:22): given `torch.tensor x` return a `torch.tensor` obtained by flattening all dimensions except first. If $x$ has shape $[d_1 \times d_2 \times \ldots \times d_k]$ then the result should have shape $[d_1 \times d_2 \cdot \ldots \cdot d_k]$

@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 120
+        length: 18
+        placeholder_text: "# TODO: call ancestor __init__"
+      - offset: 188
+        length: 132
+        placeholder_text: "# TODO: list sequential modules"
+      - offset: 366
+        length: 20
+        placeholder_text: "pass # TODO"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
