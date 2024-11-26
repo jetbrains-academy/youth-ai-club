@@ -29,7 +29,7 @@ $$
     w_{k + 1} = w_{k} - \dfrac{\eta_k}{\sqrt{\varepsilon + G_{k + 1}}} \nabla_{w} Q(w_{k})     
 $$
 
-Note that here \( G_{k} \) is not a scalar but a vector.
+Note that here $G_{k}$ is not a scalar but a vector.
 
 In all the methods mentioned above, we are using the following formula for the step size:
 
