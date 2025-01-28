@@ -1,7 +1,8 @@
 type: marketplace
 title: Youth AI Club
 language: English
-summary: Some assignments of a free online club for high-schoolers interested in AI
+summary: "Some assignments of a free online club for high-schoolers interested in AI. 
+All the lectures and assignments are here: https://avalur.github.io/ai_club.html"
 vendor:
   name: Aleksandr Avdiushenko
 programming_language: Python
@@ -13,3 +14,4 @@ content:
   - PyTorchIntroduction
   - BackpropagationAndMLP
   - Transformers
+yaml_version: 1
