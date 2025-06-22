@@ -6,3 +6,4 @@ files:
     visible: false
   - name: illustration_attention.png
     visible: false
+    is_binary: true

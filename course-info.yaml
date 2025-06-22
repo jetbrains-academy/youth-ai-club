@@ -14,4 +14,7 @@ content:
   - PyTorchIntroduction
   - BackpropagationAndMLP
   - Transformers
-yaml_version: 1
+additional_files:
+  - name: LICENSE
+  - name: requirements.txt
+yaml_version: 3

@@ -2,6 +2,7 @@ type: theory
 files:
   - name: structure_nn.png
     visible: true
+    is_binary: true
   - name: __init__.py
     visible: true
   - name: main.py

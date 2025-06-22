@@ -6,3 +6,4 @@ files:
     visible: true
   - name: computational_graph.png
     visible: true
+    is_binary: true
