@@ -17,4 +17,6 @@ content:
 additional_files:
   - name: LICENSE
   - name: requirements.txt
-yaml_version: 3
+  - name: BackpropagationAndMLP/time_measure.py
+  - name: BackpropagationAndMLP/__init__.py
+yaml_version: 5
