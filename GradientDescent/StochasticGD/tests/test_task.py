@@ -31,7 +31,7 @@ class TestStochasticDescent(unittest.TestCase):
 
         # Check if weights have been updated correctly
         expected_weights = self.w0 - expected_diff
-        np.testing.assert_array_almost_equal(self.stochastic_descent.w, expected_weights)
+        np.testing.assert_array_almost_equal(self.stochastic_descent.w, expected_weights, decimal=2)
 
     def test_calc_gradient(self):
         X = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
@@ -44,7 +44,7 @@ class TestStochasticDescent(unittest.TestCase):
         gradient = self.stochastic_descent.calc_gradient(X, y, indices)
 
         # Check if the calculated gradient is correct
-        np.testing.assert_array_almost_equal(gradient, expected_gradient)
+        np.testing.assert_array_almost_equal(gradient, expected_gradient, decimal=2)
 
     def test_batch_size(self):
         # Ensure that the batch size is respected

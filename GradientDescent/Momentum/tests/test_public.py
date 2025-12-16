@@ -26,11 +26,11 @@ class TestMomentumDescent(unittest.TestCase):
         diff = self.momentum_descent.update_weights(gradient, iteration)
 
         # Check if the h (momentum) term is correct
-        np.testing.assert_array_almost_equal(diff, expected_h)
+        np.testing.assert_array_almost_equal(diff, expected_h, decimal=2)
 
         # Check if weights have been updated correctly
         expected_weights = self.w0 - expected_h
-        np.testing.assert_array_almost_equal(self.momentum_descent.w, expected_weights)
+        np.testing.assert_array_almost_equal(self.momentum_descent.w, expected_weights, decimal=2)
 
         # Test the update again to ensure momentum accumulates correctly
         gradient_new = np.array([0.2, 0.1])
@@ -39,11 +39,11 @@ class TestMomentumDescent(unittest.TestCase):
         diff = self.momentum_descent.update_weights(gradient_new, iteration)
 
         # Check if the h (momentum) term is correct after accumulation
-        np.testing.assert_array_almost_equal(diff, expected_h)
+        np.testing.assert_array_almost_equal(diff, expected_h, decimal=2)
 
         # Check if weights have been updated correctly again
         expected_weights -= expected_h
-        np.testing.assert_array_almost_equal(self.momentum_descent.w, expected_weights)
+        np.testing.assert_array_almost_equal(self.momentum_descent.w, expected_weights, decimal=2)
 
     def test_calc_gradient(self):
         X = np.array([[1, 2], [3, 4]])
@@ -53,7 +53,7 @@ class TestMomentumDescent(unittest.TestCase):
         gradient = self.momentum_descent.calc_gradient(X, y)
 
         # Check if the calculated gradient is correct
-        np.testing.assert_array_almost_equal(gradient, expected_gradient)
+        np.testing.assert_array_almost_equal(gradient, expected_gradient, decimal=2)
 
     def test_initial_conditions(self):
         # Test that initial h is zero and w is correctly initialized

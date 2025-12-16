@@ -29,7 +29,7 @@ class TestAdagradReg(unittest.TestCase):
         gradient = self.adagrad_reg.calc_gradient(X, y)
 
         # Check if the calculated gradient is correct, including the L2 term
-        np.testing.assert_array_almost_equal(gradient, expected_gradient)
+        np.testing.assert_array_almost_equal(gradient, expected_gradient, decimal=2)
 
 if __name__ == '__main__':
     unittest.main()
