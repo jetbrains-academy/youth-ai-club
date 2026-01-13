@@ -6,6 +6,8 @@ This task is for demonstration purposes, you don't need to write code.
 Here are the forward and backward pass implementations.
 The first example uses the **Value** class we wrote and the second uses the **PyTorch** library.
 
+**Note:** if you don't see the `pytorch_example.ipynb` here, please download it from the [GitHub direct link](https://github.com/jetbrains-academy/youth-ai-club/blob/main/BackpropagationAndMLP/Comparison%20of%20Value%20with%20Pytorch/pytorch_example.ipynb).
+
 Run both fragments in turn and compare the result.
 
 Here is a visualization of forward and backward

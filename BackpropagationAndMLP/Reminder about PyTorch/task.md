@@ -3,6 +3,9 @@ It is a very powerful tool for working with machine learning models in Python.
 
 In this lesson you are invited to run different code fragments in **Jupiter notebook** to master the basic capabilities of this library.
 
+**Note:** if you don't see the `PyTorch_theory.ipynb` here, please download it from the [GitHub direct link](https://github.com/jetbrains-academy/youth-ai-club/blob/main/BackpropagationAndMLP/Reminder%20about%20PyTorch/PyTorch_theory.ipynb).
+
+
 ### Tensors
 
 Tensors are a specialized data structure that are very similar to arrays and matrices.
